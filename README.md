@@ -1,82 +1,70 @@
-# <div align="center">Amazon Clone</div>
+# Getting Started with Create React App
 
-### <div align="center">A fully functional E-commerce website</div><br>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a clone of the well-known e-commerce website Amazon. Customers can browse products and make purchases. It offers a sign in/sign up feature that keeps track of the user's cart and purchases. It was built with React on the frontend, Node and Express on the backend, MongoDB for data storage, and Razorpay for payment integration.
+## Available Scripts
 
-## Features 📃
-<ul>
-  <li>User Sign up / Sign in</li>
-  <li>Logout from your account</li>
-  <li>Browse and search products</li>
-  <li>Check profile and order history</li>
-  <li>Cart:</li>
-  <ul>
-    <li>Add multiple products</li>
-    <li>Update products</li>
-    <li>Remove products</li>
-  </ul>
-  <li>Buy a product immediately</li>
-  <li>Payment with multiple options</li>
-</ul>
+In the project directory, you can run:
 
-## Technology Used 💻
-<ul>
-  <li><strong>IDE:</strong> Visual Studio Code</li>
-  <li><strong>Frontend:</strong> React.js</li>
-  <li><strong>Backend:</strong> Express.js</li>
-  <li><strong>Database:</strong> MongoDB</li>
-  <li><strong>Runtime Environment:</strong> Node.js</li>
-  <li><strong>HTTP Client:</strong> Axios</li>
-  <li><strong>Version Control:</strong> Git</li>
-  <li><strong>Payment Integration:</strong> Razorpay</li>
-</ul>
+### `npm start`
 
-## Demo Link 🌐
-https://amazonclone-sp.herokuapp.com/
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Download Files 👇
-* Go to my GitHub repository: https://github.com/SushantPatial/Amazon-Clone
-* Download zip or clone repository
-* Then open the folder in your IDE 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## To start the server 👨‍💻
-```shell
-npm install
-nodemon
-```
-The server is now running at http://localhost:8000/ 
+### `npm test`
 
-## To start the client 👩‍💻
-```shell
-cd client
-npm install
-npm start
-```
-The client is now running at http://localhost:3000/ 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Screenshots 😍
+### `npm run build`
 
-#### Home Page
-![image](https://user-images.githubusercontent.com/84243683/168798477-5441dcb3-f0dc-422d-83bb-e14dee297576.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### Sign Up
-![image](https://user-images.githubusercontent.com/84243683/168797684-01651633-52f3-40e9-887a-8cbca72d4491.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### Sign In
-![image](https://user-images.githubusercontent.com/84243683/168797547-ccbac103-eb06-49dc-a509-d61caf15603f.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Product
-![image](https://user-images.githubusercontent.com/84243683/168797859-25d26a38-d48c-48fa-8ff5-d21ade5621b4.png)
+### `npm run eject`
 
-#### Cart
-![image](https://user-images.githubusercontent.com/84243683/168797981-ea56d3a5-256f-4280-b75a-7fa54952c147.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### Payment
-![image](https://user-images.githubusercontent.com/84243683/168798064-dc774ad5-89e6-4a83-aecd-ebcf75c6cd80.png)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Profile
-![image](https://user-images.githubusercontent.com/84243683/168798275-e195649f-f0e6-4648-b96d-2c09ab6a72d5.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-#### Orders
-![image](https://user-images.githubusercontent.com/84243683/168798196-7ed1a8a0-7622-428f-a291-84d9ca92ee06.png)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
